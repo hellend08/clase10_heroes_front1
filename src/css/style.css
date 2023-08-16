@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+body {
+    font-family: 'Roboto', 'serif';
+}
+
+.descuentos {
+    background-color: #1CD1B0;
+    font-size: 15px;
+    padding-block: 9px;
+    padding-left: 25px;
+}
+
+header {
+    background-color: #00669F;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 101px;
+    padding: 25px;
+    position: fixed;
+    top: 35px;
+    width: 100%;
+    z-index: 99;
+}
+
+h1 {
+    font-family: 'Roboto', 'serif';
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.cards {
+    align-items: center;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    margin-block: 10rem;
+}
+
+.heroeCard {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    height: 529px;
+    position: relative;
+    width: 300px;
+}
+
+.firstFrame, .secondFrame, .thirdFrame {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    display: block;
+    height: 194px;
+    width: 300px;
+}
+
+.firstFrame, .thirdFrame {
+    background-image: url('../img/frameBatman.png');
+}
+
+.secondFrame {
+    background-image: url('../img/frameHarley.png');
+}
+
+.heart {
+    margin: 13px 0px 0px 13px;
+}
+
+.heroePicture img {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 130px;
+    left: 90px;
+}
+
+.info {
+    background-color: #F3F3F3;
+    height: 336px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    padding: 75px 18px 20px;
+    width: 300px;
+}
+
+.info h2 {
+    color: #000000;
+    font-family: 'Roboto', 'serif';
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.info p {
+    color: #333333;
+    font-family: 'Roboto', 'serif';
+    font-weight: 400;
+    margin-block: 15px;
+    line-height: 18px;
+}
+
+button {
+    background-color: #00669F;
+    border: none;
+    color: #F3F3F3;
+    height: 48px;
+    margin-inline: auto;
+    width: 128px;
+    margin: 13px 68px;
+}
+
+footer {
+    background-color: #00669F;
+    padding: 1rem;
+}
+
+footer p {
+    color: #FFF9F9;
+    font-family: 'Roboto', 'serif';
+    font-weight: 400;
+}
